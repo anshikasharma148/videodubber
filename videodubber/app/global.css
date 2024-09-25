@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #171723; /* Match sidebar background */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #665dc3; /* Custom color */
+    border-radius: 10px;
+  }
+  
