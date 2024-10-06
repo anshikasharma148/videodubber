@@ -3,6 +3,7 @@
 import '@mantine/core/styles.css';
 
 import { ColorSchemeScript, MantineProvider } from '@mantine/core';
+import Sidebar from './components/Sidebar';
 
 export const metadata = {
   title: 'My Mantine app',
@@ -21,6 +22,7 @@ export default function RootLayout({
       </head>
       <body>
         <MantineProvider>{children}</MantineProvider>
+        <Sidebar/>
       </body>
     </html>
   );
